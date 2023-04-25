@@ -14,4 +14,4 @@ and thus will be added to storedWords.
 
 
 ## Part 2
-![Failure inducing input](bug input.jpg)
+![Failure inducing input](bug input.png)
