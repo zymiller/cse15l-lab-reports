@@ -1,14 +1,20 @@
 # Lab Report 1
 
 ## 1) Installing VSCode and Git
-First, go to VSCode and install visual studio code by following the directions provided there. Then, once VSCode is installed it should open up to a window like this:
+First, go to the [VSCode website](https://code.visualstudio.com/download) and install Visual Studio Code by following the directions provided there. Then, once VSCode is installed it should open up to a window like this:
 
 ![VSCode](vscode.jpg)
 
-Afterwards, also download git for windows by following the provided directions. 
+Afterwards, also download [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for windows by following the provided directions. 
 
 ## 2) Logging into the server
-Once all of this is done, open a terminal window within VSCode and input git bash then hit enter.  Once you have done this then open a terminal in VSCode by going to Terminal -> New Terminal (or by hitting Ctrl +`). Then enter the following command but replace the zz with the specific letters of your cse15l account. 
+Once all of this is done, open a terminal window within VSCode and input git bash then hit enter. To do so, you can either click the terminal tab on the top then selecting new terminal once you have clicked it, or you can hit Shift + Enter + \` to quickly open one.
+
+Before proceeding however, we should start with getting proper credentials. To do so go to the following link [to get your account specific CSE 15L account details](https://sdacs.ucsd.edu/~icc/index.php).
+
+Once that has been done enter your username into this [password reset](https://password.ucsd.edu/GetUser.aspx) to set your password on your CSE 15L account.
+
+Once you have done this then open a the terminal in VSCode (If it is already open then you can quickly access it with the shortcut Ctrl + \`). Also, make sure the terminal is a git bash terminal and not a regular powershell terminal. By clicking the arrow next to the plus on the right side of the terminal you can select which one you want to use. Then enter the following command but replace the zz with the specific letters of your cse15l account. 
 
 `$ ssh cs15lsp23zz@ieng6.ucsd.edu`
 
@@ -21,11 +27,11 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
 Since it will be your first time just say yes as this message is to be expected for your first time connecting to this server. If it is not your first time that may be cause for some concern.
 
-Afterwards, it will prompt you for your password so just type it in. Don’t worry if what you type doesn’t appear this is just a privacy measure
+Afterwards, it will prompt you for your password so just type it in. Don’t worry if what you type doesn’t appear this is just a privacy measure.
 
 Once logged in your terminal should look like this:
 
-![Entry](entry.jpg)
+![Entry](login.png)
 
 Once you’re in, start off by trying some commands.
 
