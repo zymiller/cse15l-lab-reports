@@ -55,4 +55,6 @@ OK (2 tests)
 ![Step 8](step8.png)
 
 ### Step 9
+Now to finish, I can now push this to the origin. To do so first I can do `$ git add -A` which will add all changes to the commit. Then to make sure this commit will be sent through (and can be understood) a message should be added using `$ git commit -m "<message>"`. Once this is completed we can finally push this to the origin using `$ git push origin main`. However, beware that to do so you must have a valid SSH key linked to your GitHub account to the machine you're using. Once this is complete your terminal should say this and you are finished: 
+![Step 9](step9.png)
 
