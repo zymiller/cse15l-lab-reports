@@ -37,7 +37,7 @@ Tests run: 2,  Failures: 1
 
 ### Step 7
 To remedy this, the file ListExamples.java needs to be edited. To first enter the editor I typed `$ vim ListExamples.java` to get into the file. Then afterwards I just went down the appropriated amount of times
-until I was at the line needing change (for some reason each time I run this test, my starting location changes so I can't say for sure how much you will need to move but for this instance I moved `<down>` 3 times.
+until I was at the line needing change (for some reason each time I run this test, my starting location changes so I can't say for sure how much you will need to move but for this instance I moved `<down><down><down>`.
 Then once I got to the line, I then hit `<e>` to get to the end of the first word (getting to the 1 in index1), then used `<r>` to replace 1, then hit `<2>` to finally replace the 1 with a 2. Finally
 I finished with `<:wq>` to save the file and exit.
 ![Step 7](step7.png)
