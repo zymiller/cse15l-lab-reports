@@ -16,6 +16,7 @@ Try running `bash grade.sh https://github.com/ucsd-cse15l-s23/list-examples-dupl
 
 ## Test After TA Response
 ![Test after](after.png)
+
 This new directory is the same as the other, but with a non nested ListExamples.java file. Because this worked and graded properly, then you know that the script can't read nested files, and that issue needs to be fixed
 
 ## Summary
